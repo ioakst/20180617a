@@ -9,6 +9,6 @@ def deco(f):
 	return wrapper
 
 @deco
-def hello():
+def start():
 	print("START")
-hello()
+start()
